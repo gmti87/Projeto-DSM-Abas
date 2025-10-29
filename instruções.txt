@@ -1,0 +1,5 @@
+
+Orientações para implementar mudança de aba ao clicar no botão
+
+https://www.google.com/search?q=html+abas+bot%C3%A3o+pra+tocar+proxima+aba&oq=html+abas+bot%C3%A3o+pra+tocar+proxima+aba+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigATIJCAQQIRgKGKAB0gEKMjI5OTdqMGoxNagCCLACAfEFDGbbrZtLbfHxBQxm262bS23x&sourceid=chrome&ie=UTF-8
+
