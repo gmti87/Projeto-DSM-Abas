@@ -1,12 +1,6 @@
 .container {
     border: 3px solid grey;
-    /* height: 120vh; */
-    
-    /* incluído */
-    min-height: auto;
-    height: auto;
-    
-    /* já estava */
+    height: 98vh;
     width: 99vw;
     margin: 5px;
     padding: 5px;
@@ -23,22 +17,8 @@
 #abertura {
     background-color: yellow;
     border: 3px solid blue;
-    height: 110vh;
+    height: 92.5vh;
     width: 98vw;
     margin: 5px;
 
-}
-
-/* incluído */
-.tab-content {
-    height: auto;
-}
-
-.tab-content > .tab-pane {
-    display: none;
-}
-
-.tab-content > .active {
-    display: block;
-    height: auto;
 }

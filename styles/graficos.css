@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-graficos h2 {
+    background-color: blue;
+    
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+
+    padding: 8px;
+    text-align: center;
+}
+
+.main-graficos {
+    height: 100%;
+}
+
+.main-graficos h3 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.main-graficos p {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.two-grafs1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.graf1,
+.graf2,
+.graf3,
+.graf4,
+.graf5,
+.graf6 {
+    width: 45%;
+}
+
+.footer-graficos {
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-graficos h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+
+    text-align: center;
+}

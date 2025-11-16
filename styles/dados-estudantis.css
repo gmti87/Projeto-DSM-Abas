@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-dados-est {
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-dados-est {
+    height: 110vh;
+}
+
+.row-cpf-01,
+.row-cpf-02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.row-cpf-1,
+.row-cpf-2,
+.row-cpf-3 {
+    /* border: 1px solid red; */
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row-cpf-1 label,
+.row-cpf-2 label,
+.row-cpf-3 label {
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+
+.row-cpf-1 input,
+.row-cpf-2 input,
+.row-cpf-3 input,
+.row-cpf-3 select {
+    width: 320px;
+    margin: 5px 0px 5px 0px;
+}
+
+.row-cpf-3 select {
+    margin-left: 35%;
+}
+
+.sex,
+.estado {
+    max-width: 100px;
+    width: 100%;
+}
+
+.row-cpf-02-docs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 5px;
+}
+
+.row-cpf-1-doc,
+.row-cpf-2-doc,
+.row-cpf-3-doc {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.row-cpf-02-btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.row-cpf-02-btns input {
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.row-cpf-02-btns span {
+    width: 30px;
+}
+
+.footer-dados-est {
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}

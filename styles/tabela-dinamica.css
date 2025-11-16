@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-tabela-dinamica {
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+
+}
+
+.main-tabela-dinamica {
+    height: auto;
+}
+
+.footer-tabela-dinamica {
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+/* parte do meio da página */
+.search-task {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px
+}
+
+.search-task-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-task-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(0, 0, 255);
+    opacity: 0.7;
+    color: #fff;
+}

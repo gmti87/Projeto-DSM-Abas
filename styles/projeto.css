@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-projeto {
+    height: 10vh;
+    background-color: blue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* position: fixed; */
+    width: 100%;
+
+    font-size: 2.2rem;
+}
+
+.header-projeto p {
+    color: #fff;
+}
+
+.header-projeto nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .main-projeto após o footer */
+
+.back-to-header {
+    background: lightgray;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+
+    position: fixed;
+    bottom: 16vh;
+    right: 3.2vh;
+}
+
+.back-to-header a {
+    text-decoration: none;
+    color: white;
+}
+ 
+.footer-projeto {
+    background-color: blue;
+
+    height: 10vh;
+
+    color: #fff;
+
+    font-size: 2.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main-projeto */
+
+#create-task {
+    /* border: 2px solid red; */
+    /* padding: 12vh 0vh; */
+    height: auto;
+}
+
+#create-task h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#taskInput {
+    margin-top: 10px;
+    height: 180px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    resize: none;
+
+    font-size: 1.2rem;
+}
+
+.schedule {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.date-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.date-time span {
+    width: 20px;
+}
+
+.btns {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+}
+
+.btns span {
+    width: 20px;
+}
+
+.save {
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cancel {
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#history-task {
+    /* border: 2px solid yellow; */
+    /* min-height: 80vh; */
+    /* padding-top: 1vh; */
+    height: auto;
+}
+
+#history-task h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.history-task-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h-t-s-task, .h-t-s-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#all-tasks {
+    margin-left: 5px;
+}
+
+#all-tasks-cb, #all-tasks-dt, #all-tasks-it,
+#all-tasks-sc, #all-tasks-scd, #all-tasks-sct,
+#all-tasks-ischt, #all-tasks-itsch, #all-tasks-ith,
+#all-tasks-btnEdit, #all-tasks-btnSave, #all-tasks-btnCancel {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#all-tasks-btnEdit, #all-tasks-btnSave, #all-tasks-btnCancel {
+    padding: 2px;
+}

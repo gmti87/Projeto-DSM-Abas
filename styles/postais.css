@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-dado-postal {
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-dado-postal {
+    height: 58vh;
+}
+
+.form-postal-fp {
+    /* border: 1px solid red; */
+    background-color: #fff;
+}
+
+.fp-first-row,
+.fp-second-row,
+.fp-third-row,
+.fp-fourth-row,
+.fp-btns {
+    /* border: 1px solid black; */
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fp-cep,
+.fp-rua,
+.fp-numero,
+.fp-city,
+.fp-state,
+.fp-comp,
+.fp-ref {
+    /* border: 1px solid blue; */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.fp-cep input {
+    width: 100px;
+    text-align: center;
+}
+
+.fp-numero input {
+    width: 100px;
+    text-align: center;
+}
+
+.fp-rua input {
+    width: 350px;
+}
+
+.fp-city input {
+    width: 350px;
+}
+
+.fp-state select {
+    text-align: center;
+    width: 190px;
+}
+
+.fp-comp input {
+    width: 350px;
+}
+
+.fp-ref input {
+    width: 150px;
+}
+
+.fp-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.btnSave,
+.btnCancel {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+input {
+    padding: 3px;
+}
+
+.footer-dado-postal {
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.form-postal-fp {
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-left: 10px;
+}

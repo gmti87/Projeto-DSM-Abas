@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-carrossel {
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-carrossel {
+    height: 100vh;
+}
+
+.main-carrossel h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-carrossel a {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.carrossel-container {
+    width: 100%;
+    max-width: 800px;
+    /* margin-left: 1.5%;
+    margin-right: 1.5%; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    padding: 15px;
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarefas {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5px;
+}
+
+.tarefa {
+    flex: 0 0 30%;
+    background: #eee;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* font-weight: normal; */
+    user-select: none;
+    display: none;
+}
+
+.tarefa span {
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.tarefa.ativa {
+    display: block;
+}
+
+.indicadores {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bolinha {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bolinha.ativa {
+    background-color: black;
+}
+
+/* carrossel um card */
+
+
+.cc {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tsc {
+    display: flex;
+    justify-content: center;
+}
+
+.tc {
+    width: 100%;
+    min-width: 370px;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* font-weight: bold; */
+    user-select: none;
+    display: none;
+}
+
+.tc.ativa {
+    display: block;
+}
+
+.imgu {
+    width: 120px;
+    margin-left: 32%;
+}
+
+.inds {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bl {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bl.ativa {
+    background-color: black;
+}
+
+/* footer página */
+
+.footer-carrossel {
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
